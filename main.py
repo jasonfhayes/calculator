@@ -13,8 +13,8 @@ while True:
     quit_program = None
     debug_mode = None
     debug_prompt = input("Run in \"Extra Verbose\" mode?\n"
-                        "(This enables extra PASS/FAIL printouts.)\n\n"
-                        "Y or N? ")
+                         "(This enables extra PASS/FAIL printouts.)\n\n"
+                         "Y or N? ")
     if debug_prompt.lower() in valid_inputs:
         if debug_prompt.lower() == "y":
             quit_program = False
